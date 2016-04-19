@@ -19,3 +19,5 @@
 shared/log/*
 shared/pids/*
 shared/sockets/*
+
+public/assets/*

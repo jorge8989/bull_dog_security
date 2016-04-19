@@ -82,5 +82,5 @@ test:
 production:
   <<: *default
   database: bds_production
-  username: <%= ENV['production_database_user']%>
-  password: <%= ENV['production_database_password'] %>
+  username: bull_dog_security
+  password: <%= ENV['BULL_DOG_SECURITY_DATABASE_PASSWORD'] %>
